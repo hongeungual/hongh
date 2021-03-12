@@ -1,9 +1,8 @@
 from collections import deque
 
-# 땅의 크기(N), L, R 값을 입력받기
 n, l, r = map(int, input().split())
 
-# 전체 나라의 정보(N x N)를 입력 받기
+
 graph = []
 for _ in range(n):
     graph.append(list(map(int, input().split())))
